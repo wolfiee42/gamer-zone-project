@@ -85,7 +85,9 @@ header {
 
 /* banner section */
 .banner {
-    background-color: #fef8dd;
+    background-image: url("../images/Group\ 14.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bannerr {
@@ -100,7 +102,8 @@ header {
 .banner-img img {
     width: 35vw;
 }
-
+.banner-content{
+}
 .banner-title {
     font-size: 1.8rem;
 }
@@ -114,6 +117,7 @@ header {
     font-size: .8rem;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #0B0223;
 }
 
 .button {
@@ -200,7 +204,7 @@ header {
 /* games section  */
 .games{
     max-width: 80%;
-    margin: 200px auto;
+    margin: 120px auto;
 }
 .games-category{
     display: flex;
@@ -229,7 +233,64 @@ header {
 }
 
 /* games section ends */
-
+/* footer */
+footer{
+    background-color: #0B0223 ;
+}
+.foooter{
+    max-width: 80%;
+    margin: 0px auto;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px ;
+}
+.footer1 h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.footer2 li{
+    list-style: none;
+    color: #fff;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+.footer3 li{
+    list-style: none;
+}
+.footer4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+.footer4 li{
+    list-style: none;
+    color: #fff;
+}
+.foooter p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+}
+/* footer ends */
 
 /* media query */
 @media screen and (max-width:922px) and (min-width: 577px) {
@@ -246,6 +307,9 @@ header {
     }
     .game-icon{
         gap: 10px;
+    }
+    .footer3{
+        gap: 40px;
     }
     
 }
@@ -296,4 +360,18 @@ header {
     .game-icon{
         gap: 10px;
     }
+    .footer2{
+        flex-wrap: wrap;
+    }
+    .footer3{
+        flex-wrap: wrap;
+    }
+    .footer3 li{
+        margin-right: 25px;
+    }
+    .footer4{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
 }
