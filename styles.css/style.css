@@ -206,16 +206,24 @@ header {
     .header-logo {
         margin-bottom: 20px;
     }
+    .pl-img .i78{
+        top: 1200px;
+        left: 255px;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
 
     header,
-    .menu {
+    .menu
+    {
         flex-direction: column;
     }
 
-    .bannerr {
+    .bannerr,
+    .playergames-container
+     {
         flex-direction: column-reverse;
         gap: 50px;
     }
@@ -235,5 +243,17 @@ header {
 
     .banner-img img {
         width: 65vw;
+    }
+    
+    .playergames-content{
+        width: 100%;
+    }
+    .pl-img .i78{
+        width: 25vw;
+        top: 1700px;
+        left: 235px;
+    }
+    .pl-img .i67{
+        width: 45vw;
     }
 }
