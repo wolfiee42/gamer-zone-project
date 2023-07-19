@@ -163,8 +163,40 @@ header {
     margin-bottom: 25px;
 }
 
-
 /* funny video section ends */
+
+/* player gamers section */
+.playergames-container{
+    max-width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.playergames-content{
+    width: 30vw;
+}
+.pl-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pl-desc{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.pl-img .i78{
+    width: 15vw;
+    position: absolute;
+    top: 1550px;
+    left: 450px;
+}
+.pl-img .i67{
+    width: 30vw;
+}
+
+/* player gamers section ends */
 /* media query */
 @media screen and (max-width:922px) and (min-width: 577px) {
     header {
