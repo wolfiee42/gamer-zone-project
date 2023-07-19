@@ -308,9 +308,11 @@ footer{
     .game-icon{
         gap: 10px;
     }
+    
     .footer3{
         gap: 40px;
     }
+    
     
 }
 
@@ -351,14 +353,28 @@ footer{
     }
     .pl-img .i78{
         width: 25vw;
-        top: 1700px;
-        left: 235px;
+        top: 2260px;
+        left: 250px;
     }
     .pl-img .i67{
         width: 45vw;
     }
+    .f-videos {
+        flex-direction: column;
+    }
+    .f-videos img{
+        width: 30vw;
+    }
+    .games-category{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .game-icon{
         gap: 10px;
+    }
+    .game-icon img, .game-icon h5{
+        width: 40px;
+        height: 40px;
     }
     .footer2{
         flex-wrap: wrap;
