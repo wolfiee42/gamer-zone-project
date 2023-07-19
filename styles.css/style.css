@@ -9,7 +9,8 @@
 .pink {
     color: #ff42a5;
 }
-.primary-btn{
+
+.primary-btn {
     margin-top: 20px;
     padding: 15px 25px;
     border-radius: 50px;
@@ -18,8 +19,16 @@
     background-color: #ff42a5;
     color: #fff;
 }
-.primary-btn2{
+
+.primary-btn2 {
     background-color: #4EC5F7;
+}
+
+.coloring {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* header section  */
@@ -78,7 +87,8 @@ header {
 .banner {
     background-color: #fef8dd;
 }
-.bannerr{
+
+.bannerr {
     max-width: 80%;
     margin: 0px auto;
     display: flex;
@@ -86,9 +96,11 @@ header {
     justify-content: space-between;
     padding: 30px 0px;
 }
-.banner-img img{
-    width: 35vw ;
+
+.banner-img img {
+    width: 35vw;
 }
+
 .banner-title {
     font-size: 1.8rem;
 }
@@ -96,17 +108,15 @@ header {
 .banner-tt {
     font-size: 3rem;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-.banner-desc{
+
+.banner-desc {
     font-size: .8rem;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.button{
+
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,40 +125,83 @@ header {
 
 /* banner section ends */
 
+/* funny video section */
+.funny-videos-container {
+    max-width: 80%;
+    margin: 120px auto;
+}
+
+.f-videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.f-videos img {
+    width: 19vw;
+}
+
+.fv-content {
+    text-align: center;
+}
+
+.f-videos img:hover {
+    filter: brightness(70%);
+}
+
+.fv-title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.fv-desc {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
 
+/* funny video section ends */
 /* media query */
 @media screen and (max-width:922px) and (min-width: 577px) {
-    header
-    {
+    header {
         flex-direction: column;
     }
-    .header-logo{
+
+    .header-logo {
         margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 576px) {
+
     header,
-    .menu
-    {
+    .menu {
         flex-direction: column;
     }
-    .bannerr{
+
+    .bannerr {
         flex-direction: column-reverse;
         gap: 50px;
     }
-    .header-logo{
+
+    .header-logo {
         margin-bottom: 20px;
     }
-    .menu li{
+
+    .menu li {
         margin-bottom: 8px;
     }
-    .bannerr{
+
+    .bannerr {
         text-align: center;
         /* margin: 8px auto; */
     }
-    .banner-img img{
-        width: 65vw ;
+
+    .banner-img img {
+        width: 65vw;
     }
 }
